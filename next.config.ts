@@ -4,6 +4,7 @@ import path from "path";
 const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
+  basePath: "/jacobwebsite",
   images: {
     unoptimized: true,
   },
